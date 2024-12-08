@@ -1,0 +1,6 @@
+dayInput = int(input("How many days do you have? "))
+hoursInput = int(input("How many hours do you have? "))
+minutesInput = int(input("How many minutes do you have? "))
+secondsInput = int(input("How many seconds do you have? "))
+print(dayInput, "Days", hoursInput, "Hours", minutesInput, "Minutes", secondsInput, "Seconds results in a total of")
+print(dayInput*86400 + hoursInput*3600 + minutesInput*60 + secondsInput, "Seconds")
